@@ -1,0 +1,36 @@
+{
+  "name": "regex",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Letruke-007/ajs-homeworks-tree-ajs8-regex#readme",
+  "bugs": {
+    "url": "https://github.com/Letruke-007/ajs-homeworks-tree-ajs8-regex/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Letruke-007/ajs-homeworks-tree-ajs8-regex.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.3",
+    "@babel/preset-env": "^7.24.3",
+    "babel-jest": "^29.7.0",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "husky": "^9.0.11",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "core-js": "^3.36.1"
+  }
+}
